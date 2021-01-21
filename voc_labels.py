@@ -20,7 +20,12 @@ def convert(size, box):
     h = h * dh
     return (x, y, w, h)
 def convert_annotation(image_id):
-    in_file = open('data/Annotations/%s.xml' % (image_id))
+    """
+    TO DO !!! 根据json文本更改下述代码
+    :param image_id:
+    :return:
+    """
+    in_file = open('data/Annotations/%sjosn' % (image_id))
     out_file = open('data/labels/%s.txt' % (image_id), 'w')
     tree = ET.parse(in_file)
     root = tree.getroot()
