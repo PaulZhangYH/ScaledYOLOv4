@@ -4,7 +4,7 @@ val:   data/val.txt  # 5k images
 test:  data/test.txt  # 20k images for submission to https://competitions.codalab.org/competitions/20794
 
 # number of classes
-nc: 5
+nc: 1
 
 # class names
-names: ['A', 'B', 'C', 'D', 'E', ]
+names: ['palm']
