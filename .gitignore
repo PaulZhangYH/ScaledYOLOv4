@@ -1,3 +1,4 @@
 # 忽略训练数据和标注图片
 /data/ImageSets/*
 /data/Annotations/*
+/data/*
